@@ -34,7 +34,8 @@ class Song
   end
 
   def self.find_or_create_by_name(name)
-    if
+    # check is @@all has a song with this name
+    self.create_by_name(name) if !self.find_by_name(name)
   end
 
 end
