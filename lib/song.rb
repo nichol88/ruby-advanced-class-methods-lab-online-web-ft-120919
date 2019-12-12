@@ -46,6 +46,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
+    filename = filename.slice(0, filename.length - 4)
     names = filename.split(" - ")
 
     puts names
