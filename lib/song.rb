@@ -33,5 +33,8 @@ class Song
     self.all.filter{|e| e.name == name}[0]
   end
 
+  def self.find_or_create_by_name(name)
+    if 
+  end
 
 end
