@@ -29,5 +29,9 @@ class Song
     s
   end
 
+  def self.find_by_name(name)
+    self.class.all.filter{|e| e.name == name}
+  end
+
 
 end
