@@ -22,6 +22,6 @@ class Song
     s
   end
 
-  
+
 
 end
